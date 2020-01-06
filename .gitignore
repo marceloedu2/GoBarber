@@ -1,0 +1,28 @@
+*.DS_Store
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Serverless directories
+.serverless
+api/lib/credentials.json
+.idea/
+.env
+.webpack/
+api/vendor/
+.nyc_output/
+secret-env-plain
+
+
+# Env Config
+.env
+
+
+#eMasters Credentials
+.emasters
+.google
+.playground
+
+iopipe_handlers
+
+yarn-error.log
