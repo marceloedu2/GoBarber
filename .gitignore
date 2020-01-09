@@ -2,12 +2,10 @@
 # Dependency directories
 node_modules/
 jspm_packages/
-yarn.lock
 
 # Serverless directories
-.serverless
-api/lib/credentials.json
 .idea/
+.vscode/
 .env
 .webpack/
 api/vendor/
@@ -18,12 +16,6 @@ secret-env-plain
 # Env Config
 .env
 
-
-#eMasters Credentials
-.emasters
-.google
-.playground
-
-iopipe_handlers
-
+# Error And Logs
+yarn.lock
 yarn-error.log
